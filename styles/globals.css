@@ -15,12 +15,60 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  min-width: 250px;
+  max-width: 250px;
+  background-color: #e0e2e4;
+  height: 100vh;
+}
+
+nav > .nav__logo {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  
+}
+
+nav > .nav__login {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+nav > .nav__login > a  {
+  background-color: #1f1c1c;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  
+}
+
+nav > .nav__login:hover > a:nth-child(2) {
+  box-shadow: 10px 10px 65px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 65px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 65px 0px rgba(0,0,0,0.75);
+}
+
+nav > .nav__menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+nav > .nav__search, nav > .nav__about {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  
+}
+
+nav > .nav__about {
+  margin-bottom: 10px;
 }
