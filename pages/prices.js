@@ -1,8 +1,10 @@
+import Sidebar from "../src/components/Sidebar/Sidebar"
+
 function Prices(){
     return(
-        <section>
-            Prices
-        </section>
+        <div className="templateLayout">
+      <Sidebar />
+    </div>
     )
 }
 

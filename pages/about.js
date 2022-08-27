@@ -1,9 +1,11 @@
-function About(){
-    return(
-        <section>
-            About
-        </section>
-    )
+import Sidebar from "../src/components/Sidebar/Sidebar";
+
+function About() {
+  return (
+    <div className="templateLayout">
+      <Sidebar />
+    </div>
+  );
 }
 
-export default About
+export default About;

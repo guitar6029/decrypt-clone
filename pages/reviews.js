@@ -1,9 +1,11 @@
-function Reviews(){
-    return(
-        <section>
-            Reviews
-        </section>
-    )
+import Sidebar from "../src/components/Sidebar/Sidebar";
+
+function Reviews() {
+  return (
+    <div className="templateLayout">
+      <Sidebar />
+    </div>
+  );
 }
 
-export default Reviews
+export default Reviews;

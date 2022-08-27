@@ -1,8 +1,10 @@
+import Sidebar from "../src/components/Sidebar/Sidebar"
+
 function Collections(){
     return(
-        <section>
-            Collections
-        </section>
+        <div className="templateLayout">
+      <Sidebar />
+    </div>
     )
 }
 

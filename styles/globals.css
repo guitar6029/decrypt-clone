@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   padding: 0;
@@ -11,8 +15,15 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+.hide {
+  display: none !important;
+}
+
+
+.learn {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 nav {
@@ -50,6 +61,7 @@ nav > .nav__login > a:nth-child(2)  {
   color: #fff;
   
 }
+
 /* 
 nav > .nav__login:hover:nth-last-child() > a {
   box-shadow: 10px 10px 65px 0px rgba(0,0,0,0.75);
@@ -82,6 +94,31 @@ nav > .nav__about {
   font-weight: 700;
 }
 
-.hide {
-  display: none !important;
+.templateLayout{
+  display:flex;
+  flex-direction: row;
+}
+
+
+.topStories {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 10px;
+  height: 700px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+
+.topStories > h3 {
+  font-size:  30px;
+}
+
+.topStories > div {
+  width: 400px;
+  min-height: 300px;
+  border-radius: 10px;
+  background-color: #e0e2e4;
 }

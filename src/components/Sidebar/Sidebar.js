@@ -35,7 +35,7 @@ function Sidebar() {
         <Link href="/reviews">Reviews</Link>
         <Link href="/videos">Videos &amp; Podcasts</Link>
         <Link href="/rollup">The Rollup</Link>
-        <Link href="/collection">Collections</Link>
+        <Link href="/collections">Collections</Link>
         </div>
       </div>
 

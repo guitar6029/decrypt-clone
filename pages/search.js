@@ -1,8 +1,10 @@
+import Sidebar from "../src/components/Sidebar/Sidebar"
+
 function Search(){
     return(
-        <section>
-            Search Decrypt 2.0
-        </section>
+        <div className="templateLayout">
+      <Sidebar />
+    </div>
     )
 }
 

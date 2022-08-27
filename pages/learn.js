@@ -1,8 +1,10 @@
+import Sidebar from "../src/components/Sidebar/Sidebar"
+
 function Learn(){
     return(
-        <section>
-            Learn
-        </section>
+        <div className="templateLayout">
+        <Sidebar />
+      </div>
     )
 }
 

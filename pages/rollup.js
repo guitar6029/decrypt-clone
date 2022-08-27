@@ -1,8 +1,10 @@
+import Sidebar from "../src/components/Sidebar/Sidebar"
+
 function Rollup(){
     return(
-        <section>
-            Rollup
-        </section>
+        <div className="templateLayout">
+        <Sidebar />
+      </div>
     )
 }
 

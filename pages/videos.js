@@ -1,8 +1,10 @@
+import Sidebar from "../src/components/Sidebar/Sidebar"
+
 function Videos(){
     return(
-        <section>
-            Videos &:amp; Podcasts
-        </section>
+        <div className="templateLayout">
+      <Sidebar />
+    </div>
     )
 }
 
